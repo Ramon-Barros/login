@@ -14,14 +14,31 @@ body{
 ul{
     position: relative;
     display: flex;
+    left: 35px;
 }
 ul li {
     position: relative;
     list-style: none;
-    margin: 0 20px;
+    margin: 0 15px;
     cursor: pointer;
 }
 
+ul li a .fa-brands{
+    font-size: 2em;
+    color: #fff;
+    margin-top: 10px;
+
+}
+
+p {
+    font-size: 16px;
+    text-decoration: none;
+    color: #D3D3D3;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    margin-top: 25px;
+}
 .login-box{
     position: absolute;
     top: 50%;
