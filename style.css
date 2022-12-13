@@ -7,8 +7,19 @@
 }
 
 body{
-    background: #D3D3D3;
+    background: #bcc4c8;
     font-family: var(--font-style);
+}
+
+ul{
+    position: relative;
+    display: flex;
+}
+ul li {
+    position: relative;
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
 }
 
 .login-box{
